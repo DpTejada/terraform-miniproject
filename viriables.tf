@@ -17,10 +17,10 @@ variable "tags" {
 }
 variable "public_key_location" {}
 
+variable "private_key_location" {}
+
+
 variable "instance_type" {
     type = list(any)
-  
-}
-variable "private_key_location" {
   
 }
